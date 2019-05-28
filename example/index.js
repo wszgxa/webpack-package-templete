@@ -1,3 +1,7 @@
-import packageFun from "../src/index"
+import React from 'react'
+import ReactDOM from "react-dom"
+import HelloWorld from "../src/index"
 
-packageFun()
+ReactDOM.render(
+  <HelloWorld/>, document.getElementById('app')
+)

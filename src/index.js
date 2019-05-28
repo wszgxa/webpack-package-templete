@@ -1,5 +1,6 @@
-const packageMainFunction = () => {
-  console.log("Hello World!")
-}
+import React from 'react'
+const HelloWorld = () => (
+  <div>hello world!</div>
+)
 
-export default packageMainFunction
+export default HelloWorld
